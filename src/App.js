@@ -13,7 +13,7 @@ function App() {
   const [authQuestion, setAuthQuestion] = useState("password?");
   const [authAnswer, setAuthAnswer] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  localStorage.setItem("answer", "yes");
+  //localStorage.setItem("answer", "yes");
   const [answer, setAnswer] = useState(localStorage.getItem("answer") || "yes");
   if (answer == "no") {
     console.log("the answer is no!");
