@@ -13,7 +13,7 @@ function Start() {
     setShowLoader(true); // Show the loader
     setTimeout(() => {
       setShowLoader(false); // Hide the loader after 2-3 seconds
-      navigate("/proposal"); // Navigate to the proposal
+      navigate("/propose"); // Navigate to the proposal
     }, Math.floor(Math.random() * 1000) + 2000); // Random duration between 2000ms and 3000ms
   };
 
