@@ -49,7 +49,7 @@ function App() {
                   {isAuthenticated && (
                     <>
                       <Route path="/start" element={<Start />} />
-                      <Route path="/proposal" element={<Proposal />} />
+                      <Route path="/propose" element={<Proposal />} />
                       <Route path="/rejection" element={<Rejection />} />
                     </>
                   )}
