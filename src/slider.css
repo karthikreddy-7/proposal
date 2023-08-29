@@ -1,0 +1,187 @@
+.page-slider {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight box shadow */
+        scroll-behavior: smooth;
+    
+  }
+  
+/* Hide the default scrollbar */
+.page-slider::-webkit-scrollbar {
+    width: 8px;
+}
+
+.page-slider::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.page-slider::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* Style the scrollbar track */
+.page-slider::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .section1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 520px; /* Set min-height to ensure space for content */
+  }
+  
+  .section2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 520px;
+  }
+  
+  .cardy {
+    width: 700px;
+    height: 450px;
+    perspective: 1000px;
+  }
+  .cardy-front img{
+    max-width: 500px; /* Adjust the size as needed */
+    margin-right: 10px;
+  }
+  .cardy-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .cardy:hover .cardy-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .cardy-front,
+  .cardy-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .cardy-front {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 29px;
+    font-family:'Courier New', Courier, monospace;
+    transform: rotateY(0deg);
+  }
+  
+  .cardy-back {
+    background-color:rgb(red, green, blue,0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(180deg);
+  }
+  
+  .blur {
+    backdrop-filter: blur(10px);
+
+  }
+
+  .cardl {
+    width: 590px;
+    height: 450px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+  }
+  
+  .cardl-image {
+    width: 85%;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content:flex-end;
+    border-radius: 10px;
+  }
+  
+  .cardl-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .categoryl {
+    text-transform:none;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .categoryl:hover {
+    cursor: pointer;
+  }
+  
+  .headingl {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .headingl:hover {
+    cursor: pointer;
+  }
+  
+  .authorl {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 10px;
+  }
+  
+  .namel {
+    font-weight: 600;
+  }
+  
+  .namel:hover {
+    cursor: pointer;
+  }
+
+  .accept {
+    width: 180px;
+    height: 60px;
+    border: 3px solid #cfd1d7;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #101010;
+  }
+  
+  .accept:hover {
+    background: #dde3f8;
+    color: white;
+    font-size: 1.2em;
+  }
