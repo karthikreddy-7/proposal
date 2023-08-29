@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/proposal/static/css/main.6ad26e57.css",
+    "main.js": "/proposal/static/js/main.11078320.js",
+    "static/js/787.95451459.chunk.js": "/proposal/static/js/787.95451459.chunk.js",
+    "static/media/pexels.mp4": "/proposal/static/media/pexels.204282fce0a2ae1b1041.mp4",
+    "static/media/Monna.mp3": "/proposal/static/media/Monna.b26d6a0568e15e9b46be.mp3",
+    "static/media/Perfect.mp3": "/proposal/static/media/Perfect.fb04417290cc67ca27e8.mp3",
+    "static/media/WithYou.mp3": "/proposal/static/media/WithYou.ed852c209d46c53bf7a8.mp3",
+    "static/media/Iraaday.mp3": "/proposal/static/media/Iraaday.e51c8a54a1d381a96cf7.mp3",
+    "static/media/startimg.jpg": "/proposal/static/media/startimg.d4683fbcc225d1edf8ed.jpg",
+    "static/media/poststart.jpg": "/proposal/static/media/poststart.8dc36e9448fe869b7a67.jpg",
+    "static/media/summer.jpg": "/proposal/static/media/summer.64078a0dc620e4d3056c.jpg",
+    "static/media/icon.png": "/proposal/static/media/icon.dffc4909754b59b8ad58.png",
+    "static/media/notebook.jpg": "/proposal/static/media/notebook.ed8048f96dfb607c1def.jpg",
+    "static/media/withyou.jpg": "/proposal/static/media/withyou.34a6f7c0838b30aec8c0.jpg",
+    "static/media/surya.jpeg": "/proposal/static/media/surya.a0f634f0a08c653d13be.jpeg",
+    "index.html": "/proposal/index.html",
+    "main.6ad26e57.css.map": "/proposal/static/css/main.6ad26e57.css.map",
+    "main.11078320.js.map": "/proposal/static/js/main.11078320.js.map",
+    "787.95451459.chunk.js.map": "/proposal/static/js/787.95451459.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ad26e57.css",
+    "static/js/main.11078320.js"
+  ]
+}
